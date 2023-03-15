@@ -1,0 +1,21 @@
+post http://localhost:4040/api/auth/login
+Content-Type:  application/json
+
+{
+    "email" : "s",
+    "password" : "12345678"
+}
+
+###
+post http://localhost:4040/api/auth/register
+Content-Type:  application/json
+
+{   "name" : "Ajmal",
+    "email" : "ad@gmail.com",
+    "password" : "12345678",
+    "sd":"sdsd"
+}
+
+###
+http://localhost:4040/api/user/list-all
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDExNjg2YTA0M2IzYThkMGVkNjY5NWMiLCJlbWFpbCI6InRlc3QxMjQxQGdtYWlsLmNvbSIsImlhdCI6MTY3ODg2NTI2MCwiZXhwIjoxNjc4ODcyNDYwfQ.4-mzwjvb3wTwjjVYFLzg3FsSymq4YFcDIzbkgO_fLZg
