@@ -1,5 +1,5 @@
 ## Node.js folder structure for a RESTful API:
-
+```
 ├── app
 │   ├── controllers
 │   │   ├── userController.js
@@ -33,7 +33,7 @@
 ├── .gitignore
 ├── package.json
 └── server.js
-
+```
 
 ## Best practices for building nodejs RESTful application
 - 1 Use middleware for common functionality: Middleware functions can be used to perform common tasks like logging, authentication, and input validation. Middleware functions are executed in the order they are defined in the middleware stack, which can be controlled using the app.use() function. Here is an example of using middleware for logging:
