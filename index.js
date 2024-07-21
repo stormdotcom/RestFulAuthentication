@@ -42,11 +42,6 @@ app.use(function(err, req, res, next) {
     res.status(err.status || 500);
     res.json({ message: err.message});
   });
-// mongoose.connect(connectionURL).then(()=>{
-//     console.log("DB connected")
-//     app.listen(port, ()=>{
-//         console.log("Server running on port " + port)
-//     })
-// }).catch((err)=>{
-//     console.log("Error connecting DB \n\n", err.message);
-// })
+  app.listen(port, ()=>{
+    console.log("Server running on port " + port)
+})
