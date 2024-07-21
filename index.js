@@ -20,6 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
 app.use("/api/auth/test", (req, res)=>{
+  res.status(200).json({message:"Success Test server running"})
             console.log("api on live")
 } )
 //apis
